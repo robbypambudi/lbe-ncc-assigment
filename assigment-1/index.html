@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page - LBE NCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Import Tailwinds Config in assets/tailwinds.config.js -->
+    <script src="assets/js/tailwinds.config.js"></script>
+  </head>
+  <body class="layout bg-background-primary">
+    <!-- Navbar -->
+    <section id="Navbar" class="px-20 text-white">
+      <div class="flex justify-around items-center">
+        <!-- Logo -->
+        <div>
+          <img src="assets/images/logo.png" alt="Logo" />
+        </div>
+        <!-- Menu Navbar -->
+        <div class="flex items-center gap-x-5">
+          <a href="#home">Home</a>
+          <a href="#team">Team</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <!-- Login -->
+        <div>
+          <button class="border border-white py-2 px-4 rounded">Login</button>
+        </div>
+      </div>
+    </section>
+    <!-- End Navbar -->
+    <!-- Hero -->
+    <section id="Hero" class="p-20 text-white">
+      <div class="flex items-center justify-center flex-col">
+        <h1 class="font-medium text-6xl p-5">Work with LBE NCC</h1>
+        <p class="w-1/2 text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptates, quod, quia,
+          voluptate quae voluptatem quibusdam exercitationem quos voluptatum quas quidem.
+        </p>
+      </div>
+    </section>
+
+    <!-- End Hero -->
+
+    <!-- Screen -->
+    <section id="Screen" class="pb-20 bg-gradient-to-r from-[#00000] to-[#0E0E0E] relative">
+      <img src="assets/images/screens.png" alt="Screen" class="z-0 absolute" />
+    </section>
+  </body>
+</html>
